@@ -17,6 +17,7 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "About me", file: "README.md"}
   - {title: "Research Projects", file : "research.html"}
+  - {title: "PHO-group", url: "https://phoices.netlify.app/"}
 
 # - {title: "CV", file: "CV_HaiNguyen.pdf"}
 # - {title: "Publications", files : "publications.md"}
