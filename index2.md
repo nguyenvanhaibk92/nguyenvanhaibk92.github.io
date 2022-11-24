@@ -3,9 +3,7 @@ layout: page
 title: "" 
 ---
 
-<p align="center">
-<img src="/files/DSC_0114.JPG">
-</p>
+<p align="center"> <img width="200" height = "200" src="/files/DSC_0114.JPG"></p>
 
 Hai Nguyen obtained his Bachelor’s and Master’s degree in Civil Engineering from the Ho Chi Minh City University of Technology, after which he worked as a graduate research assistant and teaching assistant at the same university. He has been pursuing his Ph.D. in Aerospace Engineering at the University of Texas at Austin since January 2021.
 
