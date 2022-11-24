@@ -1,6 +1,7 @@
 ---
-layout: page
-title: A Model-Constrained Tangent Manifold Learning Approach for Dynamical Systems
+layout: post
+mathjax: true
+title: "TNet: A Model-Constrained Tikhonov Network Approach for Inverse Problems"
 permalink: /research/model_constrained
 ---
 

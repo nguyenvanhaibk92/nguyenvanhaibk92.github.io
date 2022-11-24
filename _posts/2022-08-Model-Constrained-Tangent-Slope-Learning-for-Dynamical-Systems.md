@@ -1,6 +1,7 @@
 ---
-layout: page
-title: A Model-Constrained Tangent Slope Learning Approach for Dynamical Systems
+layout: post
+mathjax = true
+title: "mcTangent: A Model-Constrained Tangent Slope Learning Approach for Dynamical Systems"
 permalink: /research/mctangent
 ---
 
