@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 title: "TNet: A Model-Constrained Tikhonov Network Approach for Inverse Problems"
-permalink: /research/model_constrained
+# permalink: /research/model_constrained
 ---
 
 ### Major Activities

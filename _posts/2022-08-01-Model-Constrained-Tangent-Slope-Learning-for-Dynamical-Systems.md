@@ -1,8 +1,8 @@
 ---
 layout: post
-mathjax = true
+mathjax: true
 title: "mcTangent: A Model-Constrained Tangent Slope Learning Approach for Dynamical Systems"
-permalink: /research/mctangent
+# permalink: /research/mctangent
 ---
 
 ### Major Activities 

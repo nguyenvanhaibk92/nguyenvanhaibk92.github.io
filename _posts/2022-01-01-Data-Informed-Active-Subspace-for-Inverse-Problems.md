@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 title: "DIAS: A Data-Informed Active Subspace Regularization Framework for Inverse Problems"
-permalink: /research/active_subspaces_inverse_problems
+# permalink: /research/active_subspaces_inverse_problems
 ---
 
 ### Major Activities 
