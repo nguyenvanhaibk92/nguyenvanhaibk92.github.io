@@ -1,10 +1,7 @@
 ---
 layout: page
+permalink: /About/
 ---
-
-Hai Nguyen obtained his Bachelor’s and Master’s degree in Civil Engineering from the Ho Chi Minh City University of Technology, after which he worked as a graduate research assistant and teaching assistant at the same university. He is pursuing his Ph.D. in Aerospace Engineering at the University of Texas at Austin.
-
-His current interests are in the broad areas of numerical analysis, scientific computing, and machine learning. He has developed the model-constrained deep learning approach for solving both challenging forward and inverse problems. He also has been working on solving time-dependent PDEs problems, i.e., Wave equation, Burger’s equation, Navier-Stokes equation, using transformers architecture. He proposed a data-informed active subspace framework for solving inverse problems.
 
 ## Research interests
 - Machine learning
@@ -19,7 +16,7 @@ His current interests are in the broad areas of numerical analysis, scientific c
 4. [Van Hai, Nguyen, Doan Ngoc Tinh Nghiem, and Ngo Huu Cuong. "Large displacement elastic analysis of planar steel frames with flexible beam-to-column connections under static loads by corotational beam-column element." Journal of Science and Technology in Civil Engineering (STCE)-HUCE 13.3 (2019): 85-94.](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C44&q=Large+displacement+elastic+analysis+of+planar+steel+frames+with+flexible+beam-to-column+connections+under+static+loads+by+corotational+beam-column+element&btnG=)
 5. [Van Hai, Nguyen, Doan Ngoc Tinh Nghiem, and Ngo Huu Cuong. "Large displacement elastic static analysis of semi-rigid planar steel frames by corotational Euler--Bernoulli finite element." Journal of Science and Technology in Civil Engineering (STCE)-HUCE 13.2 (2019): 24-32.](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C44&q=Large+displacement+elastic+static+analysis+of+semi-rigid+planar+steel+frames+by+corotational+Euler--Bernoulli+finite+element+Article&btnG=#d=gs_cit&t=1669250308536&u=%2Fscholar%3Fq%3Dinfo%3ASfNH_EKX_LkJ%3Ascholar.google.com%2F%26output%3Dcite%26scirp%3D0%26hl%3Den)
 
-## Conference
+## Conferences
 1. **Mini-symposium organizer** Scientific Deep Learning. 5th Annual Meeting of the SIAM Texas-Louisiana Section, *November 4th - November 6th, 2022, Houston, Texas, U.S*.
 2. **Invited talk** A Model-Constrained Tangent Slope Learning Approach for Dynamical Systems. *5th Annual Meeting of the SIAM Texas-Louisiana Section, November 4th - November 6th, 2022, Houston, Texas, U.S*.
 3. **Invited talk** + **poster presentation** (Traveling reward) TNET: Model-Constrained Deep Learning Approach for Inverse Problems. *5th Annual Meeting of the SIAM Texas-Louisiana Section, November 4th - November 6th, 2022, Houston, Texas, U.S*.
