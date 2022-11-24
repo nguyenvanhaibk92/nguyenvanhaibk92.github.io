@@ -17,7 +17,7 @@ baseurl: /
 # Menu
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "About me", file: "README.md"}
-  - {title: "Research Projects", file : "research.html"}
+  - {title: "Research", file : "research.html"}
   - {title: "CV", file: "CV.html"}
   - {title: "PHO-group", url: "https://phoices.netlify.app/"}
 # - {title: "Publications", files : "publications.md"}
