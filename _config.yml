@@ -16,10 +16,10 @@ baseurl: /
 
 # Menu
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "Home", file: "index.md", icon: "house"}
-  - {title: "Publications", file: "README.md", icon: "book"}
-  - {title: "Research Projects", file : "research.html", icon: "list"}
-  - {title: "CV", file: "CV.html", icon: "file"}
+  - {title: "Home", icon: "home", file: "index.md"}
+  - {title: "Publications", icon: "rectangle-history", file: "README.md"}
+  - {title: "Research Projects", icon: "list-check", file : "research.html"}
+  - {title: "CV", icon: "files", file: "CV.html"}
   - {title: "PHO-group", url: "https://phoices.netlify.app/", icon: "globe"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
