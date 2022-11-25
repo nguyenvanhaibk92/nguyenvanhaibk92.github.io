@@ -15,5 +15,5 @@ His current interests are in the broad areas of numerical analysis, scientific c
 - Model-constrained deep learning
 - Numerical analysis
 - Structural analysis
-- Fluid and solid machenics
+- Fluid and solid mechanics
 - Finite element methods
