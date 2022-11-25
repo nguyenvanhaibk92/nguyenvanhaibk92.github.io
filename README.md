@@ -4,12 +4,6 @@ mathjax: true
 title: " "
 ---
 
-## Research interests
-- Machine learning
-- Model-constrained deep learning
-- Numerical analysis
-- Structural analysis
-
 ## Papers
 1. [Nguyen, Hai V., and Tan Bui-Thanh. "Model-constrained deep learning approaches for inverse problems." arXiv preprint arXiv:2105.12033 (2021).](https://scholar.google.com/scholar_lookup?arxiv_id=2105.12033)
 2. [Nguyen, Hai V., and Tan Bui-Thanh. "A Model-Constrained Tangent Manifold Learning Approach for Dynamical Systems." arXiv preprint arXiv:2208.04995 (2022)](https://scholar.google.com/scholar_lookup?arxiv_id=2208.04995)
