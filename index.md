@@ -3,7 +3,7 @@ layout: page
 title: "" 
 ---
 
-<p align="center"> <img width="200" height = "200" src="/files/DSC_0114.JPG"></p>
+<div align="center"> <img width="200" height = "200" src="/files/DSC_0114.JPG"></div>
 
 
 I am a second Ph.D. student in Aerospace Engineering at the University of Texas at Austin since January 2021. I obtained his Bachelor’s and Master’s degree in Civil Engineering from the Ho Chi Minh City University of Technology, after which I worked as a graduate research assistant and teaching assistant at the same university. 
