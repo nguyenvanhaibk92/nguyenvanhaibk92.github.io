@@ -26,6 +26,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Mail, icon: envelope, url: "mailto:hainguyen@utexas.edu"}
   - {title: Github, icon: github, url: "https://github.com/nguyenvanhaibk92"}
   - {title: Linkedin, icon: linkedin, url: "https://www.linkedin.com/in/hai-van-nguyen-57a715224/"}
+  - {title: Scholar, icon: book, url: "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F7HukJwqB7ZkclmEIAPwEJfhSnyguyHXkSEXjBExgzpAfq6hjpPMEief3-ivl89iPVcBS8Q_HvRUSIiJU3ncdJ3ltMWV-Aruuq6KTyRRP8vpzGpsYc&user=bpPvVpUAAAAJ"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
