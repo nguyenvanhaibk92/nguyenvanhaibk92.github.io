@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 title: "DGGNN mcTangent: Discontinuous Galerkin Graph Neural Network mcTangent Learning Slope for Shock Type Problems"
-# permalink: /research/mctangent
+# permalink: /research/DGGNNmctangent
 ---
 
 ### Major Activities 
