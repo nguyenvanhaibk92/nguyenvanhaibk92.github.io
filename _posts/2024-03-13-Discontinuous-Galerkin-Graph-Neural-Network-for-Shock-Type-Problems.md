@@ -18,7 +18,7 @@ This work is to solve shock-type problems with machine learning.
 #### Forward facing corner shock problem
 
 <p align="center">
-<img src="/assets/figures/hainguyen/2D_Euler_forth_same_mesh">
+<img src="/assets/figures/hainguyen/2D_Euler_forth_same_mesh.gif">
 <figcaption><b>Figure 2:  .</figcaption>
 </p>
 
