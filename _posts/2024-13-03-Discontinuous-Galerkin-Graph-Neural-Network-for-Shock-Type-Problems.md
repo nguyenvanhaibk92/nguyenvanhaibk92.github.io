@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: "mcTangent: A Model-Constrained Tangent Slope Learning Approach for Dynamical Systems"
+title: "DGGNN mcTangent: Discontinuous Galerkin Graph Neural Network mcTangent Learning Slope for Shock Type Problems"
 # permalink: /research/mctangent
 ---
 
