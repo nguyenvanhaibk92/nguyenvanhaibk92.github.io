@@ -19,7 +19,7 @@ This work is to solve shock-type problems with machine learning.
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Euler_forth_same_mesh.gif">
-<figcaption><b>Figure 2:  .</figcaption>
+<figcaption><b>Figure 2: predictions with the same training .</figcaption>
 </p>
 
 <p align="center">
