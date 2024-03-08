@@ -5,7 +5,7 @@ title: "mcTangent Learning Slope Approach for Shock Type Problems"
 # permalink: /research/mctangent_extension
 ---
 
-### Major Activities 
+## Major Activities 
 This work aims to solve shock-type problems with machine learning.
 
 <p align="center">
@@ -13,7 +13,7 @@ This work aims to solve shock-type problems with machine learning.
 <figcaption><b>Figure 1:</b> The schematic of mcTangent network architecture for S = 1.</figcaption>
 </p>
 
-### Significant Results
+## Significant Results
 ### 1. Forward facing corner 
 
 <p align="center">
@@ -52,5 +52,14 @@ This work aims to solve shock-type problems with machine learning.
 <figcaption><b>Figure 7: (Airfoil) </b> predictions by mcTangent approach. The test data (M=1.2, AoA = 5) and training data are generated from the different configuration</figcaption>
 </p>
 
+### 4. Euler equation configurations 6, 12
 
+<p align="center">
+<img src="/assets/figures/hainguyen/2D_Euler_configuration6.gif">
+<figcaption><b>Figure 6: (Airfoil)</b> predictions by mcTangent approach. The test data and training data are generated from the same configuration 6.</figcaption>
+</p>
 
+<p align="center">
+<img src="/assets/figures/hainguyen/2D_Euler_configuration12.gif">
+<figcaption><b>Figure 7: (Airfoil) </b> predictions by mcTangent approach. The test data configuration 12 and training data are generated from the same configuration 6</figcaption>
+</p>
