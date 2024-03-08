@@ -14,7 +14,19 @@ This work aims to solve shock-type problems with machine learning.
 </p>
 
 ## Significant Results
-### 1. Forward facing corner 
+### 1. Euler equation configurations 6, 12
+
+<p align="center">
+<img src="/assets/figures/hainguyen/2D_Euler_configuration6.gif">
+<figcaption><b>Figure 8: (Euler configuration 6)</b> predictions by mcTangent approach. The test data and training data are generated from the same configuration 6.</figcaption>
+</p>
+
+<p align="center">
+<img src="/assets/figures/hainguyen/2D_Euler_configuration12.gif">
+<figcaption><b>Figure 9: (Euler configuration 12) </b> predictions by mcTangent approach. The test data configuration 12 and training data are generated from the same configuration 6</figcaption>
+</p>
+
+### 2. Forward facing corner 
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Euler_forth_same_mesh.gif">
@@ -27,7 +39,7 @@ This work aims to solve shock-type problems with machine learning.
 </p>
 
 
-### 2. ScramJet
+### 3. ScramJet
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Euler_scram_jet_same_mesh_Mach3.gif">
@@ -40,7 +52,7 @@ This work aims to solve shock-type problems with machine learning.
 </p>
 
 
-### 3. Airfoil
+### 4. Airfoil
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Euler_Airfoil_Mach08_AoA3.gif">
@@ -52,14 +64,3 @@ This work aims to solve shock-type problems with machine learning.
 <figcaption><b>Figure 7: (Airfoil) </b> predictions by mcTangent approach. The test data (M=1.2, AoA = 5) and training data are generated from the different configuration</figcaption>
 </p>
 
-### 4. Euler equation configurations 6, 12
-
-<p align="center">
-<img src="/assets/figures/hainguyen/2D_Euler_configuration6.gif">
-<figcaption><b>Figure 6: (Airfoil)</b> predictions by mcTangent approach. The test data and training data are generated from the same configuration 6.</figcaption>
-</p>
-
-<p align="center">
-<img src="/assets/figures/hainguyen/2D_Euler_configuration12.gif">
-<figcaption><b>Figure 7: (Airfoil) </b> predictions by mcTangent approach. The test data configuration 12 and training data are generated from the same configuration 6</figcaption>
-</p>
