@@ -9,7 +9,7 @@ title: "mcTangent Learning Slope Approach for Shock Type Problems"
 This work aims to solve shock-type problems with machine learning.
 
 <p align="center">
-<img src="/assets/figures/hainguyen/mctangent_0.png">
+<img src="/assets/figures/hainguyen/mctangent_0.png" style="margin-bottom: -10px;>
 <figcaption align="center"><b>Figure 1:</b> The schematic of mcTangent network architecture for S = 1.</figcaption>
 </p>
 
@@ -21,7 +21,7 @@ This work aims to solve shock-type problems with machine learning.
 - Test data is generated from Euler configuration 6 for time interval [0, 0.8]s and Euler configuration 12 for time interval [0, 0.25]s
 
 <p align="center">
-<img src="/assets/figures/hainguyen/Euler_config_6_12.png" style="margin-bottom: 0px;">
+<img src="/assets/figures/hainguyen/Euler_config_6_12.png" style="margin-bottom: -4px;">
 <figcaption align="center"><b>Figure 2: (Euler configurations) </b> Information.</figcaption>
 </p>
 
