@@ -16,18 +16,23 @@ This work aims to solve shock-type problems with machine learning.
 
 # Numerical results
 We work on 2D Euler equations
+
 $$
 \frac{\partial \rho}{\partial t} + \frac{\partial (\rho u)}{\partial x} + \frac{\partial (\rho v)}{\partial y} = 0
 $$
+
 $$
 \frac{\partial (\rho u)}{\partial t} + \frac{\partial (\rho u^2 + p)}{\partial x} + \frac{\partial (\rho u v)}{\partial y} = 0
 $$
+
 $$
 \frac{\partial (\rho v)}{\partial t} + \frac{\partial (\rho u v)}{\partial x} + \frac{\partial (\rho v^2 + p)}{\partial y} = 0
 $$
+
 $$
 \frac{\partial E}{\partial t} + \frac{\partial (u(E + p))}{\partial x} + \frac{\partial (v(E + p))}{\partial y} = 0
 $$
+
 where $E$ is the total energy per unit volume:
 $$
 E = \frac{p}{\gamma - 1} + \frac{\rho}{2}(u^2 + v^2)
