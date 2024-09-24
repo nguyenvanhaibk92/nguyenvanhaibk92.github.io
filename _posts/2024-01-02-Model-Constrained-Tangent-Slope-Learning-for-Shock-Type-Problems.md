@@ -21,9 +21,9 @@ This work aims to solve shock-type problems with machine learning.
 - Test data is generated from Euler configuration 6 for time interval [0, 0.8]s and Euler configuration 12 for time interval [0, 0.25]s
 
 <p align="center">
-<img src="/assets/figures/hainguyen/Euler_config_6_12.png" width="60%">
-</p>
+<img src="/assets/figures/hainguyen/Euler_config_6_12.png" style="margin-bottom: 0px;">
 <figcaption align="center"><b>Figure 2: (Euler configurations) </b> Information.</figcaption>
+</p>
 
 <p align="center">
 <img src="/assets/figures/hainguyen/3D_Euler_config6.gif">
