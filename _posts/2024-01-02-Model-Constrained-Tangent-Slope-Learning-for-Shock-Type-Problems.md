@@ -15,6 +15,9 @@ This work aims to solve shock-type problems with machine learning.
 
 
 # Numerical results
+We work on Euler equations
+$$x^2$$
+
 ---
 ## Problem 1. Euler equation configurations 6, 12
 
