@@ -13,6 +13,7 @@ This work aims to solve shock-type problems with machine learning.
 <figcaption align="center" style="margin-top: 2px;"><b>Figure 1:</b> The schematic of mcTangent network architecture for S = 1.</figcaption>
 </p>
 
+
 # Numerical results
 ---
 ## Problem 1. Euler equation configurations 6, 12
