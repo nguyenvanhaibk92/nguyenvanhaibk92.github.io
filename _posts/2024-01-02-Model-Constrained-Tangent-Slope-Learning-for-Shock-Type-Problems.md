@@ -25,22 +25,6 @@ $$
 \end{align*}
 $$
 
-<!-- $$
-\frac{\partial \rho}{\partial t} + \frac{\partial (\rho u)}{\partial x} + \frac{\partial (\rho v)}{\partial y} = 0
-$$
-
-$$
-\frac{\partial (\rho u)}{\partial t} + \frac{\partial (\rho u^2 + p)}{\partial x} + \frac{\partial (\rho u v)}{\partial y} = 0
-$$
-
-$$
-\frac{\partial (\rho v)}{\partial t} + \frac{\partial (\rho u v)}{\partial x} + \frac{\partial (\rho v^2 + p)}{\partial y} = 0
-$$
-
-$$
-\frac{\partial E}{\partial t} + \frac{\partial (u(E + p))}{\partial x} + \frac{\partial (v(E + p))}{\partial y} = 0
-$$ -->
-
 where $$E$$ is the total energy per unit volume:
 $$
 E = \frac{p}{\gamma - 1} + \frac{\rho}{2}(u^2 + v^2)
@@ -50,11 +34,16 @@ $$
 ## Problem 1. Airfoil
 
 - Training data is generated from Airfoil AoA = 3 and Mach = 0.8, in time interval [0,1.2]s
-- Test data is generated from Airfoil AoA = 3 and Mach = 0.8 adn Airfoil AoA = 5 and Mach = 1.2 for time interval [0, 7.5]s
+- Test data is generated from Airfoil AoA = 3 and Mach = 0.8 and Airfoil AoA = 5 and Mach = 1.2 for time interval [0, 7.5]s
+
+<p align="center">
+<img src="/assets/figures/hainguyen/2D_Euler_Airfoil_model.png" width="570%" style="margin-bottom: 0px;">
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 2: (Airfoil)</b> Airfoil configuration AoA-3.</figcaption>
+</p>
 
 <p align="center">
 <img src="/assets/figures/hainguyen/3D_Euler_Airfoil.gif" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 13: (Airfoil)</b> predictions by DGNet for Airfoil NACA0012 of AoA-5 and Mach = 1.2.</figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 3: (Airfoil)</b> predictions by DGNet for Airfoil NACA0012 of AoA = 5 and Mach = 1.2.</figcaption>
 </p>
 
 ## Problem 2. Euler equation configurations 6, 12
@@ -64,17 +53,17 @@ $$
 
 <p align="center">
 <img src="/assets/figures/hainguyen/Euler_config_6_12.png" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 2: (Euler configurations) </b> Information.</figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 4: (Euler configurations) </b> Information setting.</figcaption>
 </p>
 
 <p align="center">
 <img src="/assets/figures/hainguyen/3D_Euler_config6.gif" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 3: (Euler configurations)</b> predictions by DGNet for configuration 6.</figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 5: (Euler configurations)</b> predictions by DGNet for configuration 6.</figcaption>
 </p>
 
 <p align="center">
 <img src="/assets/figures/hainguyen/3D_Euler_config12.gif" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 4: (Euler configurations) </b> predictions by DGNet for configuration 12</figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 6: (Euler configurations) </b> predictions by DGNet for configuration 12</figcaption>
 </p>
 
 ---
@@ -85,12 +74,12 @@ $$
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Double_Mach_model.png" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 5: (Double Mach Reflection) </b> model</figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 7: (Double Mach Reflection) </b> model</figcaption>
 </p>
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Double_Mach.gif" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 6: (Double Mach Reflection) </b> predictions by DGNet</figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 8: (Double Mach Reflection) </b> predictions by DGNet</figcaption>
 </p>
 
 ---
@@ -101,17 +90,17 @@ $$
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Euler_forth_models.png" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 7: (Forward-facing corner) </b> Model 1 and Model 2.</figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 9: (Forward-facing corner) </b> Model 1 and Model 2.</figcaption>
 </p>
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Euler_forth_same_mesh.gif" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 8: (Forward-facing corner)</b> predictions by DGNet for Model 1.</figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 10: (Forward-facing corner)</b> predictions by DGNet for Model 1.</figcaption>
 </p>
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Euler_forth_different_mesh.gif" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 9: (Forward-facing corner)</b> predictions by DGNet for Model 2.</figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 11: (Forward-facing corner)</b> predictions by DGNet for Model 2.</figcaption>
 </p>
 
 
@@ -123,17 +112,17 @@ $$
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Euler_scram_jet_models.png" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 10: (ScramJet) </b> Model 1 and Model 2.</figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 12: (ScramJet) </b> Model 1 and Model 2.</figcaption>
 </p>
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Euler_scram_jet_same_mesh_Mach3.gif" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 11: (ScramJet) </b> predictions by DGNet for Model 1.</figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 13: (ScramJet) </b> predictions by DGNet for Model 1.</figcaption>
 </p>
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Euler_scram_jet_different_mesh_Mach3.gif" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 12: (ScramJet) </b> predictions by DGNet for Model 2 </figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 14: (ScramJet) </b> predictions by DGNet for Model 2 </figcaption>
 </p>
 
 
