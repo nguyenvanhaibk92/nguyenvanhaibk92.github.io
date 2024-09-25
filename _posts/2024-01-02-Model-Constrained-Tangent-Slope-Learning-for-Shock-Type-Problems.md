@@ -37,7 +37,7 @@ $$
 - Test data is generated from Airfoil AoA = 3 and Mach = 0.8 and Airfoil AoA = 5 and Mach = 1.2 for time interval [0, 7.5]s
 
 <p align="center">
-<img src="/assets/figures/hainguyen/2D_Euler_Airfoil_model.png" width="570%" style="margin-bottom: 0px;">
+<img src="/assets/figures/hainguyen/2D_Euler_Airfoil_model.png" width="50%" style="margin-bottom: 0px;">
 <figcaption align="center" style="margin-top: 2px;"><b>Figure 2: (Airfoil)</b> Airfoil configuration AoA-3.</figcaption>
 </p>
 
