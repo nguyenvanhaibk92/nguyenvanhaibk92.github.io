@@ -41,7 +41,7 @@ $$
 \frac{\partial E}{\partial t} + \frac{\partial (u(E + p))}{\partial x} + \frac{\partial (v(E + p))}{\partial y} = 0
 $$ -->
 
-where $E$ is the total energy per unit volume:
+where $$E$$ is the total energy per unit volume:
 $$
 E = \frac{p}{\gamma - 1} + \frac{\rho}{2}(u^2 + v^2)
 $$
