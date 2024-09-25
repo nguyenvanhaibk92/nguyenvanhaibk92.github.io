@@ -5,16 +5,16 @@ title: "A model-constrained Discontinuous Galerkin Network (DGNet) for Solving C
 ---
 
 # Methodology 
-This work aims to solve shock-type problems with machine learning.
+- This work aims to solve shock-type problems with machine learning.
 
 <p align="center">
 <img src="/assets/figures/hainguyen/mctangent_0.png" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 1:</b> The schematic of mcTangent network architecture for S = 1.</figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 1:</b> The schematic of DGNet network architecture.</figcaption>
 </p>
 
 ---
 # Numerical results
-We work on 2D Euler equations
+- We work on 2D Euler equations
 
 $$
 \begin{align*}
@@ -25,13 +25,13 @@ $$
 \end{align*}
 $$
 
-where $$E$$ is the total energy per unit volume:
+- where $$E$$ is the total energy per unit volume:
 $$
 E = \frac{p}{\gamma - 1} + \frac{\rho}{2}(u^2 + v^2)
 $$
 
 ---
-## Problem 1. Airfoil
+## Problem 1. Airfoil NACA0012
 
 - Training data is generated from Airfoil AoA = 3 and Mach = 0.8, in time interval [0,1.2]s
 - Test data is generated from Airfoil AoA = 3 and Mach = 0.8 and Airfoil AoA = 5 and Mach = 1.2 for time interval [0, 7.5]s
@@ -47,7 +47,7 @@ $$
 </p>
 
 ---
-## Problem 2. Euler configurations 6, 12
+## Problem 2. Euler configurations 6 & 12
 
 - Training data is generated from Euler configuration 6 with time interval [0,0.16]s
 - Test data is generated from Euler configuration 6 for time interval [0, 0.8]s and Euler configuration 12 for time interval [0, 0.25]s
@@ -64,7 +64,7 @@ $$
 
 <p align="center">
 <img src="/assets/figures/hainguyen/3D_Euler_config12_2x2.gif" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 6: (Euler configurations) </b> predictions by DGNet for configuration 12</figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 6: (Euler configurations) </b> predictions by DGNet for configuration 12.</figcaption>
 </p>
 
 ---
@@ -75,12 +75,12 @@ $$
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Double_Mach_model.png" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 7: (Double Mach Reflection) </b> model</figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 7: (Double Mach Reflection) </b> model.</figcaption>
 </p>
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Double_Mach.gif" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 8: (Double Mach Reflection) </b> predictions by DGNet</figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 8: (Double Mach Reflection) </b> predictions by DGNet.</figcaption>
 </p>
 
 ---
@@ -123,7 +123,7 @@ $$
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Euler_scram_jet_different_mesh_Mach3.gif" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 14: (ScramJet) </b> predictions by DGNet for Model 2 </figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 14: (ScramJet) </b> predictions by DGNet for Model 2 .</figcaption>
 </p>
 
 
@@ -141,11 +141,11 @@ $$
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Euler_Airfoil_Mach08_AoA3.gif" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 14: (Airfoil)</b> predictions by DGNet for Airfoil M = 0.8, AoA = 3</figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 14: (Airfoil)</b> predictions by DGNet for Airfoil M = 0.8, AoA = 3.</figcaption>
 </p>
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Euler_Airfoil_Mach1p2_AoA5.gif" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 15: (Airfoil) </b> predictions by DGNet for for Airfoil M = 1.2, AoA = 5</figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 15: (Airfoil) </b> predictions by DGNet for for Airfoil M = 1.2, AoA = 5.</figcaption>
 </p> -->
 
