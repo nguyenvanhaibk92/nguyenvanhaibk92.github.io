@@ -57,12 +57,12 @@ $$
 </p>
 
 <p align="center">
-<img src="/assets/figures/hainguyen/3D_Euler_config6.gif" style="margin-bottom: 0px;">
+<img src="/assets/figures/hainguyen/3D_Euler_config6_2x2.gif" style="margin-bottom: 0px;">
 <figcaption align="center" style="margin-top: 2px;"><b>Figure 5: (Euler configurations)</b> predictions by DGNet for configuration 6.</figcaption>
 </p>
 
 <p align="center">
-<img src="/assets/figures/hainguyen/3D_Euler_config12.gif" style="margin-bottom: 0px;">
+<img src="/assets/figures/hainguyen/3D_Euler_config12_2x2.gif" style="margin-bottom: 0px;">
 <figcaption align="center" style="margin-top: 2px;"><b>Figure 6: (Euler configurations) </b> predictions by DGNet for configuration 12</figcaption>
 </p>
 
