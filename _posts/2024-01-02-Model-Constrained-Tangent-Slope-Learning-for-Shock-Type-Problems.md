@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: "mcTangent Learning Slope Approach for Shock Type Problems"
+title: "A model-constrained Discontinuous Galerkin Network (DGNet) for Solving Compressible Euler equations"
 # permalink: /research/mctangent_extension
 ---
 
@@ -39,7 +39,17 @@ E = \frac{p}{\gamma - 1} + \frac{\rho}{2}(u^2 + v^2)
 $$
 
 ---
-## Problem 1. Euler equation configurations 6, 12
+## Problem 1. Airfoil
+
+- Training data is generated from Airfoil AoA = 3 and Mach = 0.8, in time interval [0,1.2]s
+- Test data is generated from Airfoil AoA = 3 and Mach = 0.8 adn Airfoil AoA = 5 and Mach = 1.2 for time interval [0, 7.5]s
+
+<p align="center">
+<img src="/assets/figures/hainguyen/3D_Euler_Airfoil.gif" style="margin-bottom: 0px;">
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 13: (Airfoil)</b> predictions by DGNet for Airfoil NACA0012 of AoA-5 and Mach = 1.2.</figcaption>
+</p>
+
+## Problem 2. Euler equation configurations 6, 12
 
 - Training data is generated from Euler configuration 6 with time interval [0,0.16]s
 - Test data is generated from Euler configuration 6 for time interval [0, 0.8]s and Euler configuration 12 for time interval [0, 0.25]s
@@ -60,7 +70,7 @@ $$
 </p>
 
 ---
-## Problem 2: Double Mach Reflection
+## Problem 3: Double Mach Reflection
 
 - Training data is generated with time interval [0,0.02]s
 - Test data is generated with time interval [0, 0.25]s
@@ -76,7 +86,7 @@ $$
 </p>
 
 ---
-## Problem 3. Forward facing corner 
+## Problem 4. Forward facing corner 
 
 - Training data is generated from Model 1 with time interval [0,1]s
 - Test data is generated from Model 1 and Model 2 for time interval [0,4]s
@@ -98,7 +108,7 @@ $$
 
 
 ---
-## Problem 4. ScramJet
+## Problem 5. ScramJet
 
 - Training data is generated from Model 1 with time interval [0,1.6]s
 - Test data is generated from Model 1 and Model 2 for time interval [0, 6]s
@@ -119,11 +129,12 @@ $$
 </p>
 
 
----
+<!-- ---
 ## Problem 5. Airfoil
 
 - Training data is generated from Airfoil AoA = 3 and Mach = 0.8, in time interval [0,1.2]s
 - Test data is generated from Airfoil AoA = 3 and Mach = 0.8 adn Airfoil AoA = 5 and Mach = 1.2 for time interval [0, 7.5]s
+
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Euler_Airfoil_model.png" width="50%" style="margin-bottom: 0px;">
@@ -138,5 +149,5 @@ $$
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Euler_Airfoil_Mach1p2_AoA5.gif" style="margin-bottom: 0px;">
 <figcaption align="center" style="margin-top: 2px;"><b>Figure 15: (Airfoil) </b> predictions by DGNet for for Airfoil M = 1.2, AoA = 5</figcaption>
-</p>
+</p> -->
 
