@@ -12,7 +12,7 @@ This work aims to solve shock-type problems with machine learning.
 <figcaption align="center" style="margin-top: 2px;"><b>Figure 1:</b> The schematic of mcTangent network architecture for S = 1.</figcaption>
 </p>
 
-
+---
 # Numerical results
 We work on 2D Euler equations
 
@@ -46,14 +46,15 @@ $$
 <figcaption align="center" style="margin-top: 2px;"><b>Figure 3: (Airfoil)</b> predictions by DGNet for Airfoil NACA0012 of AoA = 5 and Mach = 1.2.</figcaption>
 </p>
 
-## Problem 2. Euler equation configurations 6, 12
+---
+## Problem 2. Euler configurations 6, 12
 
 - Training data is generated from Euler configuration 6 with time interval [0,0.16]s
 - Test data is generated from Euler configuration 6 for time interval [0, 0.8]s and Euler configuration 12 for time interval [0, 0.25]s
 
 <p align="center">
 <img src="/assets/figures/hainguyen/Euler_config_6_12.png" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 4: (Euler configurations) </b> Information setting.</figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 4: (Euler configurations) </b> Information settings.</figcaption>
 </p>
 
 <p align="center">
