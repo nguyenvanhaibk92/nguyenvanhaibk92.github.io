@@ -126,15 +126,16 @@ $$
 <figcaption align="center" style="margin-top: 2px;"><b>Figure 14: (ScramJet) </b> predictions by DGNet for Model 2 .</figcaption>
 </p>
 
+
 ---
-## Problem 16. Hypersonic flow over a sphere cone
+## Problem 6. Hypersonic flow over a sphere cone
 
 - Training data is generated with time interval [0,3e-4]s
 - Test data is generated with time interval [0, 1.5e-3]s
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Hypersonic.gif" style="margin-bottom: 0px;">
-<figcaption align="center" style="margin-top: 2px;"><b>Figure 13: (Hypersonic flow) </b> predictions by DGNet.</figcaption>
+<figcaption align="center" style="margin-top: 2px;"><b>Figure 15: (Hypersonic flow) </b> predictions by DGNet.</figcaption>
 </p>
 
 
