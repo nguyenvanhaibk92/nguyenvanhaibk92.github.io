@@ -1,21 +1,24 @@
 ---
 layout: page
-title: "" 
+title: "About me" 
 ---
 
 <div align="center"> <img width="200" height = "200" src="/files/DSC_0114.JPG"></div>
 
 
-I am a second Ph.D. student in Aerospace Engineering at the University of Texas at Austin since January 2021. I obtained his Bachelor’s and Master’s degree in Civil Engineering from the Ho Chi Minh City University of Technology, after which I worked as a graduate research assistant and teaching assistant at the same university. 
+I am a 5th-year Ph.D. student in Aerospace Engineering at the University of Texas at Austin since January 2021. I obtained his Bachelor’s and Master’s degree in Civil Engineering from Ho Chi Minh city University of Technology, after which I worked as a graduate research assistant and teaching assistant at the same university.
 
-My current interests are in the broad areas of numerical analysis, scientific computing, and machine learning. I have developed the model-constrained deep learning approach for solving both challenging forward and inverse problems. I also has been working on solving time-dependent PDEs problems, i.e., Wave equation, Burger’s equation, Navier-Stokes equation, using transformers architecture. I proposed a data-informed active subspace framework for solving inverse problems.
+My current interests are in the broad areas of machine learning, numerical analysis, and scientific computing. I have developed the model-constrained deep learning approaches for accelerating both numerical simulations and inverse problems. At the heart of the model-constrained learning approaches is the combination of data randomization and differentiable physics model, leading to low demand on training data size, good generalization, long term prediction stability, etc. Additionally, I also worked on designing transformer architecture, diffusion models, and foundation models, etc.
+<!-- to achieve higher order convergence rate for time-series physics data. I proposed a data-informed active subspace framework for solving inverse problems. -->
 
-## Research interests
-- Machine learning
-- Model-constrained deep learning
-- Numerical analysis
-- Structural analysis
-- Fluid and solid mechanics
-- Finite element methods
+I love coding and sharing useful tutorials. I recorded some useful tricks and tips for my Ph.D. journey in this [Github repo](https://github.com/nguyenvanhaibk92/PhD.utils). My favorite machine learning platform is [JAX](https://docs.jax.dev/en/latest/) which allows my to work flexibly with machine learning, differentiable PDEs solver, and computation parallelism.
 
-## Ph.D. Advisor: [Tan Bui Thanh](https://users.oden.utexas.edu/~tanbui/)
+### Research interests
+
+- Scientific Machine Learning
+- Model-Constrained Machine Learning
+- Differentiable Numerical Simulations
+- Inverse Problems
+- Partial Differential Equations
+
+### Ph.D. Advisor: [Tan Bui Thanh](https://users.oden.utexas.edu/~tanbui/)
