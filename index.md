@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About me" 
+title: "About Me" 
 ---
 
 <div align="center"> <img width="200" height = "200" src="/files/DSC_0114.JPG"></div>
