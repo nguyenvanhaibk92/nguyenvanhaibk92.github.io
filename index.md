@@ -21,4 +21,4 @@ I love coding and sharing useful tutorials. I recorded some useful tricks and ti
 - Inverse Problems
 - Partial Differential Equations
 
-### Ph.D. Advisor: [Tan Bui Thanh](https://users.oden.utexas.edu/~tanbui/)
+### Ph.D. Advisor: [Tan Bui-Thanh](https://users.oden.utexas.edu/~tanbui/)

@@ -2,8 +2,15 @@
 layout: default
 ---
 
-{% if site.show_excerpts %}
-  {% include home.html %}
-{% else %}
-  {% include archive.html title=" " %}
-{% endif %}
+<div class="research-list">
+  {% for post in site.posts %}
+    <article class="research-item">
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      {% if post.excerpt %}
+        <div class="excerpt">
+          {{ post.excerpt }}
+        </div>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>

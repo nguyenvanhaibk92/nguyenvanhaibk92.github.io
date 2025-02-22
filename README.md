@@ -4,7 +4,7 @@ mathjax: true
 title: " "
 ---
 
-## Papers [My google scholar](https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F7HukJwqB7ZkclmEIAPwEJfhSnyguyHXkSEXjBExgzpAfq6hjpPMEief3-ivl89iPVcBS8Q_HvRUSIiJU3ncdJ3ltMWV-Aruuq6KTyRRP8vpzGpsYc&user=bpPvVpUAAAAJ)
+## Papers [(google scholar)](https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F7HukJwqB7ZkclmEIAPwEJfhSnyguyHXkSEXjBExgzpAfq6hjpPMEief3-ivl89iPVcBS8Q_HvRUSIiJU3ncdJ3ltMWV-Aruuq6KTyRRP8vpzGpsYc&user=bpPvVpUAAAAJ)
 
 1. **Nguyen, H.V.**, et al. "TAEN: A Model-Constrained Tikhonov Autoencoder Network for Forward and Inverse Problems." **Under Review** at Computer Methods in Applied Mechanics and Engineering (2025)
 
