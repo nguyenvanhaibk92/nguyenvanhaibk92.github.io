@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: true
-title: " "
+title: "Academic Record"
 ---
 
 ## Papers
