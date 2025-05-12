@@ -7,8 +7,9 @@ title: "DIAS: A Data-Informed Active Subspace Regularization Framework for Inver
 
 ### Major Activities 
 
-Last year, we have been working the theorectical part and most of promising numerical results are produced. This year we provided complete proof for the theorectical part and wrapped up the work for publication. This work has been published [[paper](https://www.mdpi.com/2079-3197/10/3/38)]. The paper presents a regularization framework that aims to improve the fidelity of Tikhonov inverse solutions. At the heart of the framework is the data-informed regularization idea that only data-uninformed parameters need to be regularized, while the data-informed parameters, on which data and forward model are integrated, should remain untouched. We propose to employ the active subspace method to determine the data-informativeness of a parameter. The resulting framework is thus called a data-informed (DI) active subspace (DIAS) regularization. Four proposed DIAS variants are rigorously analyzed, shown to be robust with the regularization parameter and capable of avoiding polluting solution features informed by the data. They are thus well suited for problems with small or reasonably small noise corruptions in the data. Furthermore, the DIAS approaches can effectively reuse any Tikhonov regularization codes/libraries. Though they are readily applicable for nonlinear inverse problems, we focus on linear problems in this paper in order to gain insights into the framework. Various numerical results for linear inverse problems are presented to verify theoretical findings and to demonstrate advantages of the DIAS framework over the Tikhonov, truncated SVD, and the TSVD-based DI approaches
+This work presents a regularization framework that aims to improve the fidelity of Tikhonov inverse solutions. At the heart of the framework is the data-informed regularization idea that only data-uninformed parameters need to be regularized, while the data-informed parameters, on which data and forward model are integrated, should remain untouched. We propose to employ the active subspace method to determine the data-informativeness of a parameter. The resulting framework is thus called a data-informed (DI) active subspace (DIAS) regularization. Four proposed DIAS variants are rigorously analyzed, shown to be robust with the regularization parameter and capable of avoiding polluting solution features informed by the data. They are thus well suited for problems with small or reasonably small noise corruptions in the data. Furthermore, the DIAS approaches can effectively reuse any Tikhonov regularization codes/libraries. Though they are readily applicable for nonlinear inverse problems, we focus on linear problems in this paper in order to gain insights into the framework. Various numerical results for linear inverse problems are presented to verify theoretical findings and to demonstrate advantages of the DIAS framework over the Tikhonov, truncated SVD, and the TSVD-based DI approaches.
 
+See [here](https://www.mdpi.com/2079-3197/10/3/38) for the full paper.
 
 ### Significant Results
 
@@ -26,7 +27,6 @@ are more robust to the regularization parameter since uncentered methods
 do not penalize the data-informed direction. (Right) r = 10, all the DIAS
 solutions are similar since all methods end up spanning the same subspace.</figcaption>
 </p>
-
 
 
 <p align="center">

@@ -4,11 +4,22 @@ mathjax: true
 title: "A model-constrained Discontinuous Galerkin Network (DGNet) for Solving Compressible Euler equations"
 ---
 
-# Methodology 
-- This work aims to solve shock-type problems with machine learning.
+This work has been published at Computer Methods in Applied Mechanics and Engineering [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0045782525001847)].
+
+# Methodology
+
+
+In this work, we developed a machine learning framework to solve shock-type PDEs, in particular, Compressible Euler equations. †he core idea is motivated by the dual mesh between Discontinuous Galerkin (DG) method and Graph Neural Network (GNN). 
 
 <p align="center">
-<img src="/assets/figures/hainguyen/mctangent_0_new.png" style="margin-bottom: 0px;">
+<img src="/assets/figures/hainguyen/DGNet_dualmesh.png" style="margin-bottom: 0px;">
+<figcaption align="center" style="margin-top: 2px;"><b> Figure 0:</b> The dual mesh Discontinuous Galerkin (DG) method and Graph Neural Network (GNN) .</figcaption>
+</p>
+
+The training data flow is presented as shown in Figure 1. We integrate the data randomization and differentiable solvers to enhance the generalization of neural surrogate models.
+
+<p align="center">
+<img src="/assets/figures/hainguyen/DGNet_model.png" style="margin-bottom: 0px;">
 <figcaption align="center" style="margin-top: 2px;"><b>Figure 1:</b> The schematic of DGNet network architecture.</figcaption>
 </p>
 
@@ -21,11 +32,11 @@ $$
 \frac{\partial \rho}{\partial t} + \frac{\partial (\rho u)}{\partial x} + \frac{\partial (\rho v)}{\partial y} &= 0 \\
 \frac{\partial (\rho u)}{\partial t} + \frac{\partial (\rho u^2 + p)}{\partial x} + \frac{\partial (\rho u v)}{\partial y} &= 0 \\
 \frac{\partial (\rho v)}{\partial t} + \frac{\partial (\rho u v)}{\partial x} + \frac{\partial (\rho v^2 + p)}{\partial y} &= 0 \\
-\frac{\partial E}{\partial t} + \frac{\partial (u(E + p))}{\partial x} + \frac{\partial (v(E + p))}{\partial y} &= 0
+\frac{\partial E}{\partial t} + \frac{\partial (u(E + p))}{\partial x} + \frac{\partial (v(E + p))}{\partial y} &= 0,
 \end{align*}
 $$
 
-- where $$E$$ is the total energy per unit volume:
+where $$E$$ is the total energy per unit volume:
 
 $$
 E = \frac{p}{\gamma - 1} + \frac{\rho}{2}(u^2 + v^2)
