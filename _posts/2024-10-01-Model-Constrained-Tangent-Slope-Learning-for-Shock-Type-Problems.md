@@ -26,6 +26,7 @@ $$
 $$
 
 - where $$E$$ is the total energy per unit volume:
+
 $$
 E = \frac{p}{\gamma - 1} + \frac{\rho}{2}(u^2 + v^2)
 $$

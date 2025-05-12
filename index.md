@@ -8,7 +8,7 @@ title: "About Me"
 
 I am a 5th-year Ph.D. student in Aerospace Engineering at the University of Texas at Austin since January 2021. I obtained his Bachelor’s and Master’s degree in Civil Engineering from Ho Chi Minh city University of Technology, after which I worked as a graduate research assistant and teaching assistant at the same university.
 
-My current interests are in the broad areas of machine learning, numerical analysis, and scientific computing. I have developed the model-constrained deep learning approaches for accelerating both numerical simulations and inverse problems. At the heart of the model-constrained learning approaches is the combination of data randomization and differentiable physics model, leading to a low demand on training data, good generalization, long term prediction stability, and more. Additionally, I also worked on designing transformer architecture, diffusion models, and foundation models.
+My current interests are in the broad areas of machine learning, numerical analysis, and scientific computing. I have developed the model-constrained deep learning approaches for accelerating both numerical simulations and inverse problems. At the heart of the model-constrained learning approaches is the combination of data randomization and differentiable physics model, leading to a low demand on training data, good generalization, long term prediction stability, and more. I invented the implicit neural representation machine learning approaches for solving challenges in geomodeling and geophysics inversion for the first time in academia and industry. Additionally, I also self-studied and worked on designing transformer architecture, generative models (VAEs, energy-based models, diffusion models), and foundation models.
 <!-- to achieve higher order convergence rate for time-series physics data. -->
 Beyond machine learning, I proposed a data-informed active subspace framework and unified randomized algorithm for solving inverse problems. 
 
@@ -18,7 +18,7 @@ Beyond machine learning, I proposed a data-informed active subspace framework an
 <figcaption align="center" style="margin-top: 2px;"><b> Double Mach Reflection Animation </b> </figcaption>
 </p>
 
-I love coding and sharing useful tutorials. I recorded some useful tricks and tips for my Ph.D. journey in this [Github repo](https://github.com/nguyenvanhaibk92/PhD.utils). My favorite machine learning platform is [JAX](https://docs.jax.dev/en/latest/) which allows my to work flexibly with machine learning, differentiable PDEs solver, and computation parallelism.
+I love coding and sharing useful tutorials with others. I recorded some useful tricks and tips during my Ph.D. journey in this [Github repo](https://github.com/nguyenvanhaibk92/PhD.utils). My favorite machine learning platform is [JAX](https://docs.jax.dev/en/latest/) which allows my to work flexibly with machine learning, differentiable PDEs solver, and computation parallelism.
 
 ### Research interests
 
