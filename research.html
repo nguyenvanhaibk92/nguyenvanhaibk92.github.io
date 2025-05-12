@@ -1,9 +1,15 @@
 ---
-layout: post
+layout: default
+title: "Research Projects"
 ---
 
-{% if site.show_excerpts %}
-  {% include home.html %}
-{% else %}
-  {% include archive.html title=" " %}
-{% endif %}
+<article>
+  <header><h1>Research Projects</h1></header>
+  <ul class="research-list">
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</article>
