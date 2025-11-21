@@ -1,6 +1,489 @@
 ---
 layout: page
-title: " " 
+title: "Curriculum Vitae"
 ---
 
-<object data="/files/CV_HaiNguyen.pdf" width="1000" height="1200" type='application/pdf'></object>
+<style>
+.cv-container {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'PT Sans', sans-serif;
+  line-height: 1.6;
+}
+
+.cv-header {
+  text-align: center;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #333;
+}
+
+.cv-header h1 {
+  margin: 0.5em 0;
+  font-size: 2em;
+}
+
+.cv-contact {
+  margin-top: 1em;
+  font-size: 0.95em;
+}
+
+.cv-contact a {
+  text-decoration: none;
+  color: #0066cc;
+  margin: 0 0.5em;
+}
+
+.cv-section {
+  margin: 2em 0;
+}
+
+.cv-section-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #ccc;
+  text-transform: uppercase;
+}
+
+.cv-item {
+  margin-bottom: 1.5em;
+}
+
+.cv-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.3em;
+}
+
+.cv-item-title {
+  font-weight: bold;
+  font-size: 1.05em;
+}
+
+.cv-item-date {
+  color: #666;
+  font-style: italic;
+}
+
+.cv-item-subtitle {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 0.3em;
+}
+
+.cv-item-location {
+  color: #666;
+  font-size: 0.95em;
+}
+
+.cv-item-list {
+  margin: 0.5em 0;
+  padding-left: 1.5em;
+}
+
+.cv-item-list li {
+  margin: 0.3em 0;
+}
+
+.cv-publication {
+  margin: 0.8em 0;
+  padding-left: 1em;
+}
+
+.cv-publication strong {
+  color: #333;
+}
+
+.cv-publication em {
+  color: #555;
+}
+
+.cv-two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+
+@media (max-width: 768px) {
+  .cv-two-column {
+    grid-template-columns: 1fr;
+  }
+  .cv-item-header {
+    flex-direction: column;
+  }
+}
+</style>
+
+<div class="cv-container">
+  <div class="cv-header">
+    <h1>Van Hai Nguyen</h1>
+    <div class="cv-contact">
+      <span>📍 Austin, TX</span> | 
+      <span>📞 512-461-2988</span> | 
+      <a href="mailto:haivnguyen2021@gmail.com">✉️ haivnguyen2021@gmail.com</a> | 
+      <a href="https://www.linkedin.com/in/vanhai-nguyen/" target="_blank">💼 LinkedIn</a>
+    </div>
+  </div>
+
+  <div class="cv-section">
+    <div class="cv-section-title">Education</div>
+    
+    <div class="cv-item">
+      <div class="cv-item-header">
+        <div>
+          <span class="cv-item-title">PhD in Aerospace Engineering, GPA: 3.9/4.0</span>
+        </div>
+        <span class="cv-item-date">Dec 2025 (Expected)</span>
+      </div>
+      <div>The University of Texas at Austin</div>
+      <div class="cv-item-subtitle">Dissertation: "Model-Constrained Machine Learning Approach for Forward and Inverse Problems"</div>
+      <div>Honor: M. J. Thompson Endowed Presidential Graduate Scholarship (2023) for great research performance</div>
+    </div>
+
+    <div class="cv-item">
+      <div class="cv-item-header">
+        <div>
+          <span class="cv-item-title">Master of Science in Civil and Industrial Construction Engineering</span>
+        </div>
+        <span class="cv-item-date">Jun 2017</span>
+      </div>
+      <div>Ho Chi Minh City University of Technology</div>
+    </div>
+
+    <div class="cv-item">
+      <div class="cv-item-header">
+        <div>
+          <span class="cv-item-title">Bachelor Engineering in Civil and Industrial Construction Engineering</span>
+        </div>
+        <span class="cv-item-date">Jun 2015</span>
+      </div>
+      <div>Ho Chi Minh City University of Technology</div>
+    </div>
+  </div>
+
+  <div class="cv-section">
+    <div class="cv-section-title">Skills</div>
+    <div class="cv-two-column">
+      <div>
+        <strong>Programming Language:</strong><br>
+        Advanced Python (JAX, PyTorch, TensorFlow), MATLAB, Julia, MPI computing
+      </div>
+      <div>
+        <strong>Software & Tools:</strong><br>
+        Docker, Git, bash, Paraview, Firedrake, LaTeX, Microsoft Office, MAPLE, Flask, Kubernetes, ANSYS, AutoCad
+      </div>
+    </div>
+  </div>
+
+  <div class="cv-section">
+    <div class="cv-section-title">Work Experience</div>
+    
+    <div class="cv-item">
+      <div class="cv-item-header">
+        <div>
+          <span class="cv-item-title">Lawrence Livermore National Laboratory, Computing</span>
+        </div>
+        <span class="cv-item-date">May 2025 - Aug 2025</span>
+      </div>
+      <div class="cv-item-subtitle">Computational Science Intern</div>
+      <div class="cv-item-location">Livermore, CA, USA</div>
+      <div class="cv-item-subtitle">Project: Physics-based generative AI models for spinodal decomposition from stochastic differential equations (SDE)</div>
+      <ul class="cv-item-list">
+        <li>Developed physics-based generative AI models for accelerating the simulation from 36.67 hours to 30 minutes</li>
+        <li>Performed training models with highly noisy low-dimensional SDE data, generalized well to high-dimensional simulations</li>
+        <li>Performed comprehensive analysis of the stochastic effects on accelerating the spinodal decomposition process</li>
+        <li>Prepared the research manuscript to submit a peer-reviewed journal (On preparation)</li>
+      </ul>
+    </div>
+
+    <div class="cv-item">
+      <div class="cv-item-header">
+        <div>
+          <span class="cv-item-title">Chevron Cooperation, Subsurface Innovation Lab</span>
+        </div>
+        <span class="cv-item-date">May 2024 - Aug 2024</span>
+      </div>
+      <div class="cv-item-subtitle">Subsurface Modeling Intern</div>
+      <div class="cv-item-location">Houston, TX, USA</div>
+      <div class="cv-item-subtitle">Project: <em>Physics-informed implicit neural representation for geomodelling and geophysics inversion</em></div>
+      <ul class="cv-item-list">
+        <li>Filed a U.S patent on inventing a unified machine-learning approach for efficiently solving problems in geomodeling and geophysics inversion. It was the first time that an internship project at Chevron returned a U.S. patent</li>
+        <li>Performed data parallelism training on multiple GPU clusters with JAX and enabled high-resolution complex geology objects</li>
+        <li>Accelerated 40× computation time, and saved 60× computation memory compared to legacy grid-based code</li>
+        <li>Improved significantly the performance of FWI with complex salt by removing the need for initial models</li>
+        <li>Published the research work in a peer-reviewed conference</li>
+      </ul>
+    </div>
+
+    <div class="cv-item">
+      <div class="cv-item-header">
+        <div>
+          <span class="cv-item-title">Chevron Cooperation, Computation Reservoir Geophysics R&D</span>
+        </div>
+        <span class="cv-item-date">May 2023 - Aug 2023</span>
+      </div>
+      <div class="cv-item-subtitle">Earth Science Intern</div>
+      <div class="cv-item-location">Houston, TX, USA</div>
+      <div class="cv-item-subtitle">Project: <em>Physics-informed machine learning for elastic full waveform inversion (FWI)</em></div>
+      <ul class="cv-item-list">
+        <li>Inverted successfully the subsurface earth models for field data without initial models, for the first time, in academia and industry</li>
+        <li>Reduced drastically from months or more to a few days the cycle time for imaging inversion than the conventional FWI approach</li>
+        <li>Accelerated 57× computation time for solving wave equations, accelerated 23× training time, and saved 35% GPU memory</li>
+        <li>Parallelized training on 8 of A100-GPUs, thus scaling for large-scale 2D&3D synthetic and field data problems</li>
+        <li>Published the research work in a peer-reviewed conference</li>
+      </ul>
+    </div>
+
+    <div class="cv-item">
+      <div class="cv-item-header">
+        <div>
+          <span class="cv-item-title">JFE Steel Corporation, Steel Research Laboratory</span>
+        </div>
+        <span class="cv-item-date">Jul 2018 - Sep 2018</span>
+      </div>
+      <div class="cv-item-subtitle">Steel Foundation Internship</div>
+      <div class="cv-item-location">Nagoya, Japan</div>
+      <div class="cv-item-subtitle">Project: Research on steel pipe pile foundation design and geological ground survey</div>
+      <ul class="cv-item-list">
+        <li>Carried out a critical comparative analysis of Vietnamese and Japanese foundation design standards, establishing the groundwork for Vietnam's first steel foundation design standard</li>
+        <li>Led a geological ground survey in Vietnam to successfully evaluate the applicability of JFE steel pipe pile foundations</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cv-section">
+    <div class="cv-section-title">Research Experience</div>
+    
+    <div class="cv-item">
+      <div class="cv-item-header">
+        <div>
+          <span class="cv-item-title">The University of Texas at Austin</span>
+        </div>
+        <span class="cv-item-date">Jan 2021 - Present</span>
+      </div>
+      <div class="cv-item-subtitle">Graduate Research Assistant</div>
+      <div class="cv-item-location">Austin, TX, USA</div>
+      
+      <div style="margin-top: 1em;">
+        <div class="cv-item-subtitle">Project: Model-constrained machine learning frameworks for simulating time-dependent PDEs with discontinuities</div>
+        <ul class="cv-item-list">
+          <li>Designed neural network surrogate models for 10× faster time-dependent PDEs simulations with discontinuities</li>
+          <li>Generalized neural networks for unseen scenarios, including discretization, boundary conditions, geometry, and parameters</li>
+          <li>Parallelized the training models and differentiable numerical PDEs simulations on a GPU cluster of 128 GPUs</li>
+        </ul>
+      </div>
+
+      <div style="margin-top: 1em;">
+        <div class="cv-item-subtitle">Project: Model-constrained autoencoder machine learning frameworks for solving PDE-constrained inverse problems</div>
+        <ul class="cv-item-list">
+          <li>Learned inverse solver surrogate models with one arbitrary training sample, thus reducing drastically the training data requirement</li>
+          <li>Accelerated computation time 25,000× faster than the classical Tikhonov framework while achieving the same accuracy level</li>
+        </ul>
+      </div>
+
+      <div style="margin-top: 1em;">
+        <div class="cv-item-subtitle">Project: Redesigning Transformer architecture for simulating time-dependent PDEs and forecasting time-series data</div>
+        <ul class="cv-item-list">
+          <li>Redesigned the transformer architecture via the perspective numerical methods for PDEs</li>
+          <li>Achieved a higher-order convergence rate than the vanilla transformer in PDEs numerical simulations with JAX</li>
+        </ul>
+      </div>
+
+      <div style="margin-top: 1em;">
+        <div class="cv-item-subtitle">Project: TorchFire - A combination of PyTorch and Firedrake for differentiable machine learning framework</div>
+        <ul class="cv-item-list">
+          <li>Embedded the Firedrake PDE simulations within PyTorch to form an end-to-end differentiable training framework</li>
+          <li>Distributed Firedrake PDE simulations within PyTorch on multiple CPUs for faster training neural networks</li>
+        </ul>
+      </div>
+
+      <div style="margin-top: 1em;">
+        <div class="cv-item-subtitle">Project: Data-informed active subspace regularization framework for inverse problems</div>
+        <ul class="cv-item-list">
+          <li>Identified the data-informed active subspace of parameter leading to higher quality solutions compared to conventional frameworks</li>
+          <li>Reduced drastically effort on tuning regularization parameters in Tikhonov framework, leading to a more robust inverse framework</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cv-item">
+      <div class="cv-item-header">
+        <div>
+          <span class="cv-item-title">Ho Chi Minh City University of Technology</span>
+        </div>
+        <span class="cv-item-date">July 2017 - Dec 2020</span>
+      </div>
+      <div class="cv-item-subtitle">Graduate Research Assistant</div>
+      <div class="cv-item-location">Ho Chi Minh, Vietnam</div>
+      <ul class="cv-item-list">
+        <li>Implemented direct design method for portal steel frames using structural analysis according to ANSI/AISC 360-16</li>
+        <li>Developed finite element method programs for non-linear plastic analysis of 2D/3D steel semi-rigid frames</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cv-section">
+    <div class="cv-section-title">Publications</div>
+    <ol>
+      <li class="cv-publication">
+        <strong>H.V. Nguyen</strong>, et. al. <em>Learning noisy dynamics of spinodal decomposition from stochastic differential equations.</em> <strong>On preparation</strong>
+      </li>
+      <li class="cv-publication">
+        <strong>H.V. Nguyen</strong>, et. al. <em>Taen: a model-constrained Tikhonov autoencoder network for forward and inverse problems.</em> Computer Methods in Applied Mechanics and Engineering (2025)
+      </li>
+      <li class="cv-publication">
+        <strong>H.V. Nguyen</strong>, et. al. <em>A model-constrained discontinuous Galerkin network (DGNet) for compressible Euler equations with out-of-distribution generalization.</em> Computer Methods in Applied Mechanics and Engineering (2025)
+      </li>
+      <li class="cv-publication">
+        <strong>H.V. Nguyen</strong>, et. al. <em>Physics-informed dual implicit neural representations for FWI with salt.</em> International Meeting for Applied Geoscience & Energy (2025)
+      </li>
+      <li class="cv-publication">
+        <strong>H.V. Nguyen</strong>, et. al. <em>JAX acceleration of physics-informed FWI and field data application.</em> International Meeting for Applied Geoscience & Energy (2024)
+      </li>
+      <li class="cv-publication">
+        <strong>H.V. Nguyen</strong>, et. al. <em>Tnet: a model-constrained deep learning approach for inverse problems.</em> SIAM Journal of Scientific Computing (2024)
+      </li>
+      <li class="cv-publication">
+        R.S. Philley, <strong>H.V. Nguyen</strong>, et. al. <em>Model-constrained empirical bayesian neural networks for inverse problems.</em> American Congress on Computational Methods in Engineering (2023)
+      </li>
+      <li class="cv-publication">
+        J. Wittmer, <strong>H.V. Nguyen</strong>, et. al. <em>On unifying randomized methods for inverse problems.</em> Inverse Problems (2023)
+      </li>
+      <li class="cv-publication">
+        <strong>H.V. Nguyen</strong>, et. al. <em>A model-constrained tangent slope learning approach for dynamical systems.</em> International Journal of Computational Fluid Dynamics (2022)
+      </li>
+      <li class="cv-publication">
+        <strong>H.V. Nguyen</strong>, et. al. <em>A data-informed active subspace regularization framework for inverse problems.</em> Computation (2022)
+      </li>
+      <li class="cv-publication">
+        <strong>H.V. Nguyen</strong>, et. al. <em>Large Displacement Elastic Analysis of Planar Steel Frames with Flexible Beam-to-Column Connections Under Static Loads by Corotational Beam-Column Element.</em> Journal of Science and Technology in Civil Engineering (2019)
+      </li>
+      <li class="cv-publication">
+        <strong>H.V. Nguyen</strong>, et. al. <em>Large Displacement Elastic Static Analysis of Semi-Rigid Planar Steel Frames by Corotational Euler--Bernoulli Finite Element.</em> Journal of Science and Technology in Civil Engineering (2019)
+      </li>
+    </ol>
+  </div>
+
+  <div class="cv-section">
+    <div class="cv-section-title">Conferences</div>
+    <ol>
+      <li class="cv-publication">
+        <strong>Invited talk</strong> - SIAM Texas-Louisiana Section, TX, USA, 2025
+      </li>
+      <li class="cv-publication">
+        <strong>Poster presentation</strong> - 5th International Meeting for Applied Geoscience & Energy (IMAGE), USA, 2025
+      </li>
+      <li class="cv-publication">
+        <strong>Invited talk + Symposium organizer</strong> - 18th U.S. National Congress on Computational Mechanics, USA, 2025
+      </li>
+      <li class="cv-publication">
+        <strong>Invited talk</strong> - SIAM Conference on Computational Science and Engineering, USA, 2025
+      </li>
+      <li class="cv-publication">
+        <strong>Invited talk + Poster presentation + Symposium organizer</strong> - SIAM Conference on Mathematics of Data Science, USA, 2024
+      </li>
+      <li class="cv-publication">
+        <strong>Invited talk + Poster presentation</strong> - SciML Workshop on Scientific Machine Learning, USA, 2024
+      </li>
+      <li class="cv-publication">
+        <strong>Invited talk + Symposium organizer</strong> - 17th U. S. National Congress on Computational Mechanics, USA, 2023
+      </li>
+      <li class="cv-publication">
+        <strong>Invited talk</strong> - Seminar at Department of Mathematics - Kansas State University, USA, 2023
+      </li>
+      <li class="cv-publication">
+        <strong>Invited talks + Poster presentation + Symposium organizer</strong> - SIAM Texas-Louisiana Section, USA, 2022
+      </li>
+      <li class="cv-publication">
+        <strong>Invited talk</strong> - SIAM Conference on Mathematics of Data Science, USA, 2022
+      </li>
+      <li class="cv-publication">
+        <strong>Invited talk</strong> - Thematic Conference on Uncertainty Quantification for Machine Learning Integrated Physics Modeling, USA, 2022
+      </li>
+      <li class="cv-publication">
+        <strong>Invited talk</strong> - SIAM Conference on Uncertainty Quantification, USA, 2022
+      </li>
+    </ol>
+  </div>
+
+  <div class="cv-section">
+    <div class="cv-section-title">Teaching Experience</div>
+    
+    <div class="cv-item">
+      <div class="cv-item-header">
+        <div>
+          <span class="cv-item-title">The University of Texas at Austin</span>
+        </div>
+        <span class="cv-item-date">Aug 2021 - Present</span>
+      </div>
+      <div class="cv-item-subtitle">Teaching assistant</div>
+      <div class="cv-item-location">Austin, TX, USA</div>
+      <div class="cv-item-subtitle">Courses: Engineering Computation (COE311K), Software Design and Engineering (COE332), Software Design For Responsible Intelligent Systems (COE379L), Analytical Methods I & II (ASE380P1, ASE380P2), Introduction to Machine Learning (EM397)</div>
+      <ul class="cv-item-list">
+        <li>Delivered tutorials and mentored students about course-related materials including lecture notes, homework, and projects</li>
+        <li>Prepared and evaluated homework problems, exam problems, and project topics</li>
+      </ul>
+    </div>
+
+    <div class="cv-item">
+      <div class="cv-item-header">
+        <div>
+          <span class="cv-item-title">Ho Chi Minh City University of Technology</span>
+        </div>
+        <span class="cv-item-date">Jun 2017 - Nov 2020</span>
+      </div>
+      <div class="cv-item-subtitle">Teaching assistant</div>
+      <div class="cv-item-location">Ho Chi Minh, Vietnam</div>
+      <div class="cv-item-subtitle">Course: Steel Structures Theory and Design</div>
+    </div>
+  </div>
+
+  <div class="cv-section">
+    <div class="cv-section-title">Mentoring Experience</div>
+    <ol>
+      <li class="cv-publication">
+        <strong>William Cole Nockolds</strong>, The University of Texas at Austin, Spring Semester 2023 - <em>A model-constrained tangent learning approach for dynamics systems on latent space</em>, pursued PhD in the same group from Sep 2024
+      </li>
+      <li class="cv-publication">
+        <strong>Wesley Lao</strong>, The University of Texas at Austin, Fall Semester 2022 - <em>Graph neural network model-constrained tangent learning approach for discontinuous wave propagation PDEs using JAX-Fluid package</em>, pursued PhD in the same group from Sep 2023
+      </li>
+      <li class="cv-publication">
+        <strong>Nghia Nim</strong>, New York University, Summer Semester 2022 - <em>Model-constrained machine learning approach to solving PDEs</em>, Software Engineer at Bloomberg
+      </li>
+      <li class="cv-publication">
+        <strong>Hieu Tran</strong>, DePauw University, Summer and Fall Semesters 2022 - <em>A convolution neural network model-constrained tangent learning approach for dynamics systems</em>, pursued PhD in Purdue University
+      </li>
+    </ol>
+  </div>
+
+  <div class="cv-section">
+    <div class="cv-section-title">Referees</div>
+    
+    <div class="cv-item">
+      <div><strong>Prof. Tan Bui-Thanh</strong></div>
+      <div>Aerospace Engineering and Engineering Mechanics Department, University of Texas at Austin</div>
+      <div><a href="mailto:tanbui@ices.utexas.edu">tanbui@ices.utexas.edu</a></div>
+    </div>
+
+    <div class="cv-item">
+      <div><strong>Dr. Anusha Sekar</strong></div>
+      <div>Computation Reservoir Geophysics R&D, Chevron Cooperation</div>
+      <div><a href="mailto:anusha.sekar@chevron.com">anusha.sekar@chevron.com</a></div>
+    </div>
+
+    <div class="cv-item">
+      <div><strong>Prof. Cuong Ngo-Huu</strong></div>
+      <div>Civil Engineering Department, Ho Chi Minh City University of Technology</div>
+      <div><a href="mailto:cuongngohuu@hcmut.edu">cuongngohuu@hcmut.edu</a></div>
+    </div>
+
+    <div class="cv-item">
+      <div><strong>Dr. Eng. Takuya Murakami</strong></div>
+      <div>Steel Research Laboratory, JFE Steel Corporation</div>
+      <div><a href="mailto:tak-murakami@jfe-steel.co.jp">tak-murakami@jfe-steel.co.jp</a></div>
+    </div>
+  </div>
+</div>
