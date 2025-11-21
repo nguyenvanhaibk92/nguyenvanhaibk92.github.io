@@ -4,12 +4,27 @@ mathjax: true
 title: "A model-constrained Discontinuous Galerkin Network (DGNet) for Solving Compressible Euler equations"
 ---
 
-This work has been published at Computer Methods in Applied Mechanics and Engineering [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0045782525001847)].
+# Paper publication {#paper-publication}
+
+**Publication Link:** [https://www.sciencedirect.com/science/article/pii/S0045782525001847](https://www.sciencedirect.com/science/article/pii/S0045782525001847)
+
+**Citation:**
+
+```bibtex
+@article{van2025model,
+  title={A model-constrained discontinuous Galerkin Network (DGNet) for compressible Euler equations with out-of-distribution generalization},
+  author={Van Nguyen, Hai and Chen, Jau-Uei and Bui-Thanh, Tan},
+  journal={Computer Methods in Applied Mechanics and Engineering},
+  volume={440},
+  pages={117912},
+  year={2025},
+  publisher={Elsevier}
+}
+```
 
 # Methodology
 
-
-In this work, we developed a machine learning framework to solve shock-type PDEs, in particular, Compressible Euler equations. †he core idea is motivated by the dual mesh between Discontinuous Galerkin (DG) method and Graph Neural Network (GNN). 
+In this work, we developed a machine learning framework to solve shock-type PDEs, in particular, Compressible Euler equations. †he core idea is motivated by the dual mesh between Discontinuous Galerkin (DG) method and Graph Neural Network (GNN).
 
 <p align="center">
 <img src="/assets/figures/hainguyen/DGNet_dualmesh.png" style="margin-bottom: 0px;">
@@ -24,7 +39,9 @@ The training data flow is presented as shown in Figure 1. We integrate the data 
 </p>
 
 ---
+
 # Numerical results
+
 - We work on 2D Euler equations
 
 $$
@@ -43,13 +60,14 @@ E = \frac{p}{\gamma - 1} + \frac{\rho}{2}(u^2 + v^2)
 $$
 
 ---
+
 ## Problem 1. Airfoil NACA0012
 
 - Training data is generated from Airfoil AoA = 3 and Mach = 0.8, in time interval [0,1.2]s
 - Test data is generated from Airfoil AoA = 3 and Mach = 0.8 and Airfoil AoA = 5 and Mach = 1.2 for time interval [0, 7.5]s
 
 <p align="center">
-<img src="/assets/figures/hainguyen/2D_Euler_Airfoil_model.png" width="50%" style="margin-bottom: 0px;">
+<img src="/assets/figures/hainguyen/2D_Euler_Airfoil_model.png" width="50%" style="display: block; margin: 0 auto; margin-bottom: 0px;">
 <figcaption align="center" style="margin-top: 2px;"><b>Figure 2: (Airfoil)</b> Airfoil configuration AoA-3.</figcaption>
 </p>
 
@@ -59,6 +77,7 @@ $$
 </p>
 
 ---
+
 ## Problem 2. Euler configurations 6 & 12
 
 - Training data is generated from Euler configuration 6 with time interval [0,0.16]s
@@ -80,6 +99,7 @@ $$
 </p>
 
 ---
+
 ## Problem 3: Double Mach Reflection
 
 - Training data is generated with time interval [0,0.02]s
@@ -96,7 +116,8 @@ $$
 </p>
 
 ---
-## Problem 4. Forward facing corner 
+
+## Problem 4. Forward facing corner
 
 - Training data is generated from Model 1 with time interval [0,1]s
 - Test data is generated from Model 1 and Model 2 for time interval [0,4]s
@@ -116,8 +137,8 @@ $$
 <figcaption align="center" style="margin-top: 2px;"><b>Figure 11: (Forward-facing corner)</b> predictions by DGNet for Model 2.</figcaption>
 </p>
 
-
 ---
+
 ## Problem 5. ScramJet
 
 - Training data is generated from Model 1 with time interval [0,1.6]s
@@ -138,8 +159,8 @@ $$
 <figcaption align="center" style="margin-top: 2px;"><b>Figure 14: (ScramJet) </b> predictions by DGNet for Model 2 .</figcaption>
 </p>
 
-
 ---
+
 ## Problem 6. Hypersonic flow over a sphere cone
 
 - Training data is generated with time interval [0,3e-4]s
@@ -150,14 +171,11 @@ $$
 <figcaption align="center" style="margin-top: 2px;"><b>Figure 15: (Hypersonic flow) </b> predictions by DGNet.</figcaption>
 </p>
 
-
-
 <!-- ---
 ## Problem 5. Airfoil
 
 - Training data is generated from Airfoil AoA = 3 and Mach = 0.8, in time interval [0,1.2]s
 - Test data is generated from Airfoil AoA = 3 and Mach = 0.8 adn Airfoil AoA = 5 and Mach = 1.2 for time interval [0, 7.5]s
-
 
 <p align="center">
 <img src="/assets/figures/hainguyen/2D_Euler_Airfoil_model.png" width="50%" style="margin-bottom: 0px;">
@@ -173,4 +191,3 @@ $$
 <img src="/assets/figures/hainguyen/2D_Euler_Airfoil_Mach1p2_AoA5.gif" style="margin-bottom: 0px;">
 <figcaption align="center" style="margin-top: 2px;"><b>Figure 15: (Airfoil) </b> predictions by DGNet for for Airfoil M = 1.2, AoA = 5.</figcaption>
 </p> -->
-
